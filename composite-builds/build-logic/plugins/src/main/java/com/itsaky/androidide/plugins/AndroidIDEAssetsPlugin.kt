@@ -54,7 +54,7 @@ class AndroidIDEAssetsPlugin : Plugin<Project> {
 
       androidComponentsExtension.onVariants { variant ->
 
-        val variantNameCapitalized = variant.name.capitalized()
+        val variantNameCapitalized = variant.name.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
 
         variant.sources.jniLibs?.addGeneratedSourceDirectory(setupAapt2TaskTaskProvider,
           SetupAapt2Task::outputDirectory)
