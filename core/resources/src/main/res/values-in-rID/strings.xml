@@ -36,6 +36,7 @@
   <string name="msg_no_references">Referensi tidak ditemukan</string>
   <string name="view_diags">Diagnostik</string>
   <string name="title_installation_failed">Instalasi gagal</string>
+  <string name="title_installation_success">Instalasi berhasil</string>
   <string name="msg_picked_isnt_dir">File yang dipilih bukan direktori!</string>
   <string name="please_wait">Harap tunggu sebentar …</string>
 
@@ -65,14 +66,14 @@
   <string name="title_close_project">Tutup proyek ini</string>
   <string name="msg_opened_project_does_not_exist">Proyek yang terakhir dibuka tidak ada!</string>
   <string name="msg_create_new_project">Buat proyek baru</string>
-  <string name="msg_open_existing_project">Buka proyek yang ada</string>
+  <string name="msg_open_existing_project">Buka proyek</string>
   <string name="title_confirm_project_close">Tutup proyek</string>
 
   <!-- Templates -->
   <string name="msg_confirm_project_close">Apakah Anda yakin ingin menutup proyek ini? Semua daemon Gradle yang sedang berjalan akan dihentikan setelah proyek ini ditutup.</string>
   <string name="template_basic">Proyek Dasar</string>
   <string name="template_empty">Proyek Kosong</string>
-  <string name="template_navigation_drawer">Proyek Navigation Drawer</string>
+  <string name="template_navigation_drawer">Navigation Drawer</string>
   <string name="template_navigation_tabs">Bottom Navigation Activity</string>
   <string name="template_tabs">Tabbed Activity</string>
   <string name="template_no_activity">Tanpa Activity</string>
@@ -136,7 +137,7 @@
   <string name="restype_other">Lainnya</string>
   <string name="classtype_class">Class</string>
   <string name="classtype_activity">Activity</string>
-  <string name="title_interface">Interface</string>
+  <string name="title_interface">Antarmuka</string>
   <string name="classtype_enum">Enum</string>
   <string name="msg_failed_list_files">Gagal membuat daftar file proyek!</string>
 
@@ -150,7 +151,7 @@
   <string name="title_change_text_size">Ukuran font editor</string>
   <string name="idepref_about_title">Tentang AndroidIDE</string>
   <string name="idepref_build_clearCache_title">Bersihkan cache Gradle</string>
-  <string name="idepref_build_clearCache_summary">Membersihkan direktori cache Gradle. Ini akan menghapus semua dependensi yang telah diunduh oleh Gradle. File yang diperlukan akan diunduh lagi pada build berikutnya.</string>
+  <string name="idepref_build_clearCache_summary">Bersihkan direktori cache Gradle. Ini akan menghapus semua dependensi yang telah diunduh oleh Gradle. File yang diperlukan akan diunduh lagi pada build berikutnya.</string>
   <string name="idepref_build_customgradlecommands_title">Perintah Gradle tambahan</string>
   <string name="idepref_build_customgradlecommands_summary">Pilih perintah tambahan yang akan ditambahkan saat menjalankan setiap task</string>
   <string name="idepref_editor_fontsize_title">Ukuran font</string>
@@ -164,11 +165,11 @@
   <string name="idepref_editor_title">Editor</string>
   <string name="idepref_build_title">Build &amp; Jalankan</string>
   <string name="title_open_projects">Buka proyek terakhir</string>
-  <string name="msg_open_projects">Jika dicentang, IDE akan mengingat proyek yang terakhir dibuka dan akan dibuka kembali pada pembukaan berikutnya.</string>
+  <string name="msg_open_projects">Jika diaktifkan, IDE akan mengingat proyek yang terakhir dibuka dan akan dibuka kembali pada pembukaan berikutnya.</string>
   <string name="title_confirm_project_open">Konfirmasi pembukaan proyek</string>
   <string name="msg_confirm_project_open">Tanyakan sebelum membuka proyek yang terakhir dibuka.</string>
   <string name="title_default_shell">Gunakan shell sistem di terminal</string>
-  <string name="msg_default_shell">Jika dicentang, \'/system/bin/sh\' akan digunakan di terminal.</string>
+  <string name="msg_default_shell">Jika diaktifkan, \'/system/bin/sh\' akan digunakan di terminal.</string>
   <string name="title_general">Umum</string>
   <string name="title_tab_size">Ukuran Tab</string>
   <string name="msg_tab_size">Tentukan jumlah spasi untuk TAB</string>
@@ -187,7 +188,7 @@
   <string name="msg_empty_ui_layout">Tidak ada tampilan yang ditambahkan. Klik untuk menambahkan.</string>
   <string name="msg_generate_xml_failed">Gagal membuat kode XML</string>
   <string name="title_generating_xml">Buat kode XML</string>
-  <string name="msg_swipe_up">Geser ke atas atau klik untuk melihat output build, log, dan lainnya.</string>
+  <string name="msg_swipe_up">Geser ke atas atau klik untuk melihat output build, log dan lainnya.</string>
   <string name="msg_ide_crashed">AndroidIDE mengalami kerusakan</string>
   <string name="msg_report_crash">Silakan buka masalah di github dengan stacktrace berikut ini :</string>
   <string name="msg_crash_report_hint">Klik tombol di bawah ini untuk menyalin log dan membuka halaman masalah.</string>
@@ -249,6 +250,8 @@
   <string name="msg_swipe_for_output">Geser ke atas untuk @@output build@@.</string>
   <string name="idepref_editor_useSoftTabs_title">Gunakan tab lunak</string>
   <string name="idepref_editor_useSoftTabs_summary">Pilih apakah akan menggunakan spasi sebagai pengganti karakter tab (\\t).</string>
+  <string name="idepref_editor_cursorAnimationEnabled_title">Aktifkan animasi kursor</string>
+  <string name="idepref_editor_cursorAnimationEnabled_summary">Pilih apakah akan menggunakan animasi saat menggerakkan kursor.</string>
   <string name="btn_donate">Donasi</string>
   <string name="btn_docs">Dokumentasi</string>
   <string name="btn_close">Tutup</string>
@@ -378,8 +381,8 @@
   <string name="idepref_general_themeSelector_summary">Pilih tema untuk AndroidIDE (perlu dimulai ulang).</string>
   <string name="idepref_general_projectConfig">Konfigurasi proyek</string>
   <string name="msg_app_launch_failed">Peluncuran gagal. Instal aplikasinya terlebih dahulu.</string>
-  <string name="idepref_java_diagnosticEnabled_title">Diagnostik diaktifkan</string>
-  <string name="idepref_java_diagnosticsEnabled_summary">(PERCOBAAN) Apakah file sumber Java harus dianalisis untuk memeriksa masalah atau jangan.</string>
+  <string name="idepref_java_diagnosticEnabled_title">Aktifkan diagnostik</string>
+  <string name="idepref_java_diagnosticsEnabled_summary">(PERCOBAAN) Apakah file sumber Java harus dianalisis untuk memeriksa masalah atau tidak.</string>
   <string name="title_reload_color_schemes">Muat ulang skema warna</string>
   <string name="msg_dir_picker_failed">Gagal memilih direktori : %1$s</string>
   <string name="msg_tooling_server_unavailable">Server API Tooling tidak tersedia. Periksa output build dan log IDE untuk mengetahui adanya kesalahan.</string>
@@ -466,7 +469,7 @@
   <string name="msg_files_being_saved">Operasi penyimpanan file sedang berlangsung!</string>
   <string name="title_install_tools">Instalasi SDK</string>
   <string name="subtitle_install_tools">Instal alat pengembangan</string>
-  <string name="msg_install_tools">Alat pengembangan harus diinstal agar IDE dapat bekerja. Mengklik tombol selesai akan membuka terminal untuk menginstal alat bantu. Untuk menginstal, ikuti petunjuk berikut <![CDATA[ <a href="https://docs.androidide.com/tutorials/get-started.html">disini</a>.<br/><br/>Atau baca bagian <a href="https://docs.androidide.com/">documentation</a>]]>.</string>
+  <string name="msg_install_tools">Alat pengembangan harus diinstal agar IDE dapat bekerja. Mengklik tombol selesai akan membuka terminal untuk menginstal alat bantu. Untuk menginstal, ikuti petunjuk berikut <![CDATA[ <a href="https://docs.androidide.com/tutorials/get-started.html">disini</a>.<br/><br/>Atau baca bagian <a href="https://docs.androidide.com/">dokumentasi</a>]]>.</string>
   <string name="greeting_title">Selamat datang</string>
   <string name="greeting_subtitle">Pelajari, build, luncurkan. Semua di Android Anda.</string>
   <string name="title_grant">Izinkan</string>

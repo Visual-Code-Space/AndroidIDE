@@ -127,7 +127,7 @@
   <string name="termux_keyboard_header">Keyboard</string>
 
   <!-- Soft Keyboard -->
-  <string name="termux_soft_keyboard_enabled_title">Keyboard Lunak Diaktifkan</string>
+  <string name="termux_soft_keyboard_enabled_title">Aktifkan Keyboard Lunak</string>
   <string name="termux_soft_keyboard_enabled_off">Keyboard lunak akan dinonaktifkan.</string>
   <string name="termux_soft_keyboard_enabled_on">Keyboard lunak akan diaktifkan. (Default)</string>
 
