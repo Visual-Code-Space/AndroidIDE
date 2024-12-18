@@ -44,7 +44,7 @@
   <string name="title_unsupported_device">Perangkat Tidak Didukung</string>
   <string name="msg_unsupported_device">Anda menggunakan varian %1$s dari AndroidIDE pada perangkat khusus %2$s. Konfigurasi ini tidak didukung. Silakan instal varian %2$s dari AndroidIDE.</string>
   <string name="title_clear_output">Bersihkan output</string>
-  <string name="build_output">Output build</string>
+  <string name="build_output">Output Build</string>
   <string name="quick_run_debug">Jalankan</string>
   <string name="msg_sync_needed">File Gradle telah berubah. Silakan build kembali proyek Anda untuk menyinkronkan dependensi dan konfigurasi.</string>
   <string name="preparing">Menyiapkan</string>
@@ -91,7 +91,7 @@
   <string name="msg_empty_search_query">Silakan masukkan teks</string>
   <string name="msg_select_search_modules">Pilih modul yang akan dicari</string>
   <string name="msg_searching_project">Mencari dalam proyek, harap tunggu…</string>
-  <string name="view_search_results">Hasil pencarian</string>
+  <string name="view_search_results">Hasil Pencarian</string>
   <string name="project_created_successfully">Proyek berhasil dibuat!</string>
   <string name="project_creation_failed">Gagal membuat proyek!</string>
   <string name="msg_folder_creation_failed">Gagal membuat folder!</string>
