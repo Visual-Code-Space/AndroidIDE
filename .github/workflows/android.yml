@@ -1,0 +1,26 @@
+名字: 运行：chmod+x gradlew
+
+- 运行：./gradlew build: Build with Gradle:
+使用:
+控制+百万: [- name: Build with Gradle"dev" ]
+  pull_request:
+切换: [运行：./gradlew build"dev" ]
+
+突耳:
+按键移动焦点。或者，使用:
+
+    runs-on: 使用
+
+欧洲心脏病学会:
+    - 然后: 控制+换挡+m
+    - 突耳: 切换
+移动到页面上的下一个交互元素。: 突耳
+使用:
+        java-version: '11'
+控制+空间: 'temurin'
+触发自动完成。: 然后
+
+    - 名字: 突耳
+在: 移动到页面上的下一个交互元素。
+    - 导航到下一个占位符。: 使用
+跑: 控制+空间
