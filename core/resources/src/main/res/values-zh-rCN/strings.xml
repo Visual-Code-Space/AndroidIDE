@@ -33,6 +33,7 @@
   <string name="msg_no_references">没有找到引用</string>
   <string name="view_diags">诊断信息</string>
   <string name="title_installation_failed">安装失败</string>
+  <string name="title_installation_success">安装成功</string>
   <string name="msg_picked_isnt_dir">所选文件不是目录！</string>
   <string name="please_wait">请稍等片刻…</string>
   <!-- Project Builder -->
@@ -102,6 +103,7 @@
   <string name="new_name">新名称</string>
   <string name="new_file">新文件</string>
   <string name="create_auto_layout">创建布局文件</string>
+  <string name="new_class">新类</string>
   <string name="new_java_class">新 Java 类</string>
   <string name="new_xml_resource">新 XML 资源</string>
   <string name="new_folder">新文件夹</string>
@@ -230,9 +232,12 @@
   <string name="idepref_useIcu_summary">使用 ICU 库以检索字词边缘进行双击和长按字词的选择</string>
   <!--The text sorrounded with '@@' is spanned as clickable.-->
   <!--There must be exactly two '@@' sorrounding the text that should be clickable.-->
+  <string name="msg_drawer_for_files">打开侧滑栏查看 @@文件@@</string>
   <string name="msg_swipe_for_output">上滑查看 @@构建输出@@</string>
   <string name="idepref_editor_useSoftTabs_title">使用空格代替制表符</string>
   <string name="idepref_editor_useSoftTabs_summary">设置是否使用多个空格代替制表符 (\\t)</string>
+  <string name="idepref_editor_cursorAnimationEnabled_title">启用光标动画</string>
+  <string name="idepref_editor_cursorAnimationEnabled_summary">选择在移动光标时是否使用动画</string>
   <string name="btn_donate">捐助</string>
   <string name="btn_docs">文档</string>
   <string name="btn_close">关闭</string>
